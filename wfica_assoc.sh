@@ -1,3 +1,3 @@
 #!/bin/sh
 export ICAROOT=/opt/Citrix/ICAClient
-${ICAROOT}/wfica -file "$1"
+${ICAROOT}/wfica -associate -fileparam "$1"

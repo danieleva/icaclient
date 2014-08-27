@@ -112,8 +112,8 @@ package() {
     install -Dm644 configmgr.desktop "${pkgdir}/usr/share/applications/configmgr.desktop"
     install -Dm644 selfservice.desktop "${pkgdir}/usr/share/applications/wfcmgr.desktop"
     # install scripts
-    install -Dm755 wfica.sh "${pkgdir}${instdir}"
-    install -Dm755 wfica_assoc.sh "${pkgdir}${instdir}"
+    install -Dm755 wfica.sh "${pkgdir}$ICAROOT"
+    install -Dm755 wfica_assoc.sh "${pkgdir}$ICAROOT"
 
   # Intall License
   #install -m644 -D nls/en/eula.txt \

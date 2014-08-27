@@ -3,7 +3,7 @@
 # Contributor: Matthew Gyurgyik <matthew@pyther.net>
 pkgname=icaclient
 pkgver=13.0.0.256735
-pkgrel=9
+pkgrel=10
 pkgdesc="Citrix Receiver for Linux (ICAClient)"
 arch=('x86_64')
 url="http://www.citrix.com/English/ps2/products/product.asp?contentID=1689163&ntref=prod_top"
